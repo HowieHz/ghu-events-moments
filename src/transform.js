@@ -258,11 +258,11 @@ function transformWrappeEventToMoment(wrappedEvents) {
       metadata: {
         generateName: "moment-",
         labels: {
-          "guqing.github.io/type": "github-user-public-event",
+          "higan.howiehz.top/type": "github-user-public-event",
         },
         annotations: {
-          "guqing.github.io/event-id": `${item.id}`,
-          "guqing.github.io/customize-title": `${item.title}`,
+          "higan.howiehz.top/event-id": `${item.id}`,
+          "higan.howiehz.top/customize-title": `${item.title}`,
         },
       },
       kind: "Moment",
